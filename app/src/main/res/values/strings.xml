@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coddy</string>
+
+    <!-- Tabs -->
+    <string name="tab_encode">Encode</string>
+    <string name="tab_decode">Decode</string>
+
+    <!-- Encode -->
+    <string name="pick_image">Pick Image</string>
+    <string name="enter_secret_message">Enter secret message…</string>
+    <string name="encode">Encode</string>
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="capacity_format">Capacity: %1$d bytes available</string>
+
+    <!-- Decode -->
+    <string name="decode">Decode</string>
+    <string name="decoded_message">Decoded message:</string>
+    <string name="copy">Copy</string>
+
+    <!-- Status -->
+    <string name="processing">Processing…</string>
+    <string name="encode_success">Message encoded successfully!</string>
+    <string name="decode_success">Message decoded successfully!</string>
+    <string name="saved_to_gallery">Saved to Pictures/Coddy</string>
+    <string name="error_no_image">Please pick an image first</string>
+    <string name="error_empty_message">Please enter a message</string>
+    <string name="error_message_too_long">Message is too long for this image</string>
+    <string name="error_decode_failed">Could not decode a message from this image</string>
+    <string name="error_save_failed">Failed to save image</string>
+    <string name="no_image_selected">No image selected</string>
+
+    <!-- Pixel Merging -->
+    <string name="tab_merge">Merge</string>
+    <string name="pick_container">Pick Container</string>
+    <string name="pick_secret_image">Pick Secret Image</string>
+    <string name="merge_images">Merge Images</string>
+    <string name="extract_image">Extract Hidden Image</string>
+    <string name="merge_success">Images merged successfully!</string>
+    <string name="extract_success">Hidden image extracted!</string>
+    <string name="error_no_secret">Please pick a secret image</string>
+    <string name="error_secret_too_large">Secret image must be ≤ container size</string>
+    <string name="error_extract_failed">Could not extract a hidden image</string>
+    <string name="container_label">Container</string>
+    <string name="secret_label">Secret</string>
+    <string name="result_label">Result</string>
+
+    <!-- Picture as File -->
+    <string name="tab_pic_as_file">Pic File</string>
+    <string name="hide_picture">Hide Picture</string>
+    <string name="reveal_picture">Reveal Picture</string>
+    <string name="pic_encode_success">Picture hidden successfully!</string>
+    <string name="pic_decode_success">Hidden picture revealed!</string>
+    <string name="error_pic_too_large">Image too large: %1$d KB, max %2$d KB</string>
+    <string name="error_pic_decode_failed">Could not extract a hidden picture</string>
+    <string name="capacity_kb_format">Capacity: %1$d KB available</string>
+
+    <!-- Zero-Width Characters -->
+    <string name="tab_zero_width">ZeroW</string>
+    <string name="enter_cover_text">Enter visible cover text…</string>
+    <string name="enter_secret_text">Enter secret message…</string>
+    <string name="zw_encode">Hide in Text</string>
+    <string name="zw_decode">Reveal</string>
+    <string name="enter_text_to_decode">Paste text with hidden message…</string>
+    <string name="paste_from_clipboard">Paste from Clipboard</string>
+    <string name="zw_encode_success">Secret hidden in text!</string>
+    <string name="zw_decode_success">Secret message revealed!</string>
+    <string name="error_empty_cover">Please enter cover text</string>
+    <string name="error_zw_decode_failed">No hidden message found</string>
+    <string name="result_text_label">Result (tap to copy):</string>
+    <string name="copied">Copied to clipboard</string>
+
+    <!-- Hybridization -->
+    <string name="tab_hybrid">Hybrid</string>
+    <string name="pick_cover_file">Pick Cover Image</string>
+    <string name="pick_secret_file">Pick Secret File</string>
+    <string name="mode_concat">Concat</string>
+    <string name="mode_png_chunk">PNG Chunk</string>
+    <string name="hybridize">Hybridize</string>
+    <string name="extract_file">Extract File</string>
+    <string name="hybrid_success">Hybrid file created!</string>
+    <string name="extract_file_success">Secret file extracted!</string>
+    <string name="error_no_cover">Please pick a cover image</string>
+    <string name="error_no_secret_file">Please pick a secret file</string>
+    <string name="error_read_failed">Failed to read file</string>
+    <string name="error_not_png">Cover must be PNG for chunk mode</string>
+    <string name="error_unsupported_format">Unsupported cover format (use JPEG, PNG, or GIF)</string>
+    <string name="error_extract_file_failed">No hidden file found</string>
+    <string name="saved_to_downloads">Saved to Downloads/Coddy</string>
+    <string name="cover_format_label">Cover: %1$s (%2$d KB)</string>
+    <string name="secret_file_label">Secret: %1$d KB</string>
+
+    <!-- Media Converter -->
+    <string name="tab_convert">Convert</string>
+    <string name="pick_media_file">Pick Media File</string>
+    <string name="video_codec">Video Codec</string>
+    <string name="audio_codec">Audio Codec</string>
+    <string name="output_format">Output Format</string>
+    <string name="convert">Convert</string>
+    <string name="extract_audio">Extract Audio</string>
+    <string name="media_info_label">Info: %1$s</string>
+    <string name="custom_ffmpeg">Custom FFmpeg</string>
+    <string name="run_command_btn">Run Command</string>
+
+    <!-- Crypto -->
+    <string name="tab_crypto">Crypto</string>
+    <string name="crypto_password">Password</string>
+    <string name="crypto_text">Text</string>
+    <string name="crypto_encrypt">Encrypt</string>
+    <string name="crypto_decrypt">Decrypt</string>
+    <string name="crypto_result">Result (tap to copy):</string>
+    <string name="error_empty_password">Please enter a password</string>
+    <string name="error_empty_crypto_text">Please enter text</string>
+    <string name="crypto_encrypt_success">Text encrypted!</string>
+    <string name="crypto_decrypt_success">Text decrypted!</string>
+</resources>

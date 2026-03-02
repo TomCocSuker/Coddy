@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Coddy" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#6A1B9A</item>
+        <item name="android:navigationBarColor">#1C1B1F</item>
+    </style>
+</resources>
